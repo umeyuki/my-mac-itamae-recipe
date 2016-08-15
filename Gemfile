@@ -6,6 +6,6 @@ source "https://rubygems.org"
 gem "itamae"
 gem "serverspec"
 gem "rake"
-gem 'guard-rspec'
-gem 'terminal-notifier'
-gem 'terminal-notifier-guard'
+gem "guard-rspec"
+gem "terminal-notifier"
+gem "terminal-notifier-guard"
