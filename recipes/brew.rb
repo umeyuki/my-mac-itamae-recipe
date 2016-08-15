@@ -6,8 +6,6 @@ if enable_update
   execute "Update brew" do
     command "brew update"
   end
-else
-  Itamae::Logger.info('Execution skipped Update brew because of not true enable_update')
 end
 
 # Upgrade brew
@@ -16,8 +14,6 @@ if enable_upgrade
   execute "Upgrade brew" do
     command "brew upgrade"
   end
-else
-  Itamae::Logger.info('Execution skipped Upgrade brew because of not true enable_upgrade')
 end
 
 # Install brew
