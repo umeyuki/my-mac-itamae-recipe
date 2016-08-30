@@ -6,7 +6,9 @@ brew:
     - homebrew/versions
     - homebrew/binary
     - peco/peco
+    - caskroom/homebrew-cask
   install_packages:
+    - direnv
     - ngrep
     - redis
     - bash-completion
